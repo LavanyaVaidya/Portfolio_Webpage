@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-dark" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#About-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Skill-set">My Skill Set</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Projects">My Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Recognitions">Recognitions</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- About Me -->
+    <section id="About-me" class="py-5">
+        <div class="container">
+            <h2 class="mb-3">About Me</h2>
+            <section class="Info-container">
+                <div style="aspect-ratio: 1 / 1.1;">
+                    <img src="./images/Lavanya_photo.jpeg" alt="Profile picture" style="width: 100%; height: 100%; object-fit: cover; border-radius: 1rem;">
+                </div>
+                <div style="padding: 1.5rem; display: flex; align-items: center;">
+                    <p style="font-size: 1.2rem">I am Lavanya, a passionate computer science graduate with a deep affinity for continuous learning. Presently, I am immersed 
+                        in the dynamic realm of the software development industry. My journey through this field has been a thrilling experience, 
+                        allowing me to apply my knowledge and skills to create innovative solutions. Each day, I embrace new challenges 
+                        with enthusiasm, driven by my genuine love for exploring emerging technologies and refining my craft.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- SkillSet -->
+    <section id="skillset">
+        <div class="container">
+            <h2 class="mb-3">SkillSet</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Programming Languages</h4>
+                    <ul class="list-unstyled">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>C/C++</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Operating Systems</h4>
+                    <ul class="list-unstyled">
+                        <li>Linux</li>
+                        <li>Windows</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Other Skills</h4>
+                    <ul class="list-unstyled">
+                        <li>Version Control (Git)</li>
+                        <li>UI/UX Design</li>
+                        <li>Database Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="mb-3">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/111.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Driver Drowsiness Detection System</h5>
+                            <p class="card-text">A system to detect the fatigue of the driver using deep learning.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/222.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Movie Recommendation System</h5>
+                            <p class="card-text">Machine learning based movie recommandation System.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/333.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Span E-mail Classifier System</h5>
+                            <p class="card-text">A system which labels E-mail as spam or non-spam by implementing the concept of logistic regression.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recognitions -->
+    <section id="recognitions" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Recognitions</h2>
+            <div class="accordion" id="accordionRecognitions">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Cartoonist
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionRecognitions">
+                        <div class="accordion-body">
+                            I earned recognition as one of the four artists participating in a workshop organized by Focus Himachal.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Problem Solver
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionRecognitions">
+                        <div class="accordion-body">
+                            Solved 450+ problems in leetcode.
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/lavanya-vaidya/" target="_blank" class="text-white"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.github.com/lavanyavaidya" target="_blank" class="text-white"><i class="bi bi-github"></i></a>
+            </div>
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
