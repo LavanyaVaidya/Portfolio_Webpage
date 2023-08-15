@@ -1,0 +1,31 @@
+body {
+    background-color: beige;
+}
+
+header {
+    max-width: 1150px;
+    margin: 0 auto;
+    color: black;
+}
+
+.Info-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+h2{
+    margin-bottom: 4rem;
+}
+
+li{
+    font-size: 1rem;
+}
